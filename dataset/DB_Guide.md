@@ -605,7 +605,4 @@ def retrieve_context(
 | PortSwigger BL Vuln | https://portswigger.net/web-security/logic-flaws |
 | 팀 스프레드시트 | https://docs.google.com/spreadsheets/d/1R2aoTQrz_ByQ5CABeZLJrWvQZg5kSu-30tVbVWxmSQU |
 
----
 
-*BLADE 프로젝트 — 방과후 securi티타임 (덕성여자대학교 디지털소프트웨어공학부)*  
-*고윤수 | 이혜인 | 장해윤*
