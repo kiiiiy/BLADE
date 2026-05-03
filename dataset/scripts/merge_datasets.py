@@ -14,10 +14,10 @@ import argparse
 import json
 from pathlib import Path
 
-BASE_DIR      = Path(__file__).parent
-MAIN_CHUNKS   = BASE_DIR / "bola_chunks.json"
-NVD_CHUNKS    = BASE_DIR / "nvd_chunks.json"
-SHEETS_CHUNKS = BASE_DIR / "sheets_chunks.json"
+DATASET_DIR   = Path(__file__).parent.parent
+MAIN_CHUNKS   = DATASET_DIR / "chunks" / "bola_chunks.json"
+NVD_CHUNKS    = DATASET_DIR / "chunks" / "nvd_chunks.json"
+SHEETS_CHUNKS = DATASET_DIR / "chunks" / "sheets_chunks.json"
 
 
 def load(path: Path) -> list[dict]:

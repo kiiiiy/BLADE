@@ -16,8 +16,8 @@ from pathlib import Path
 import chromadb
 import ollama
 
-CHUNKS_FILE = Path(__file__).parent / "bola_chunks.json"
-CHROMA_PATH = Path(__file__).parent / "chroma_db"
+CHUNKS_FILE = Path(__file__).parent.parent / "chunks"    / "bola_chunks.json"
+CHROMA_PATH = Path(__file__).parent.parent / "chroma_db"
 
 COLLECTION_MAP = {
     "cwe":            "bola_standards",

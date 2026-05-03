@@ -31,8 +31,8 @@ import requests
 # ---------------------------------------------------------------------------
 DEFAULT_SHEET_ID = "1R2aoTQrz_ByQ5CABeZLJrWvQZg5kSu-30tVbVWxmSQU"
 
-OUTPUT_DIR     = Path(__file__).parent
-CHUNKS_OUT     = OUTPUT_DIR / "sheets_chunks.json"
+DATASET_DIR    = Path(__file__).parent.parent
+CHUNKS_OUT     = DATASET_DIR / "chunks" / "sheets_chunks.json"
 
 # ---------------------------------------------------------------------------
 # Column name normalisation

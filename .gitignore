@@ -1,4 +1,4 @@
-# ChromaDB — regenerate with load_to_chromadb.py
+# ChromaDB — regenerate with scripts/load_to_chromadb.py
 dataset/chroma_db/
 
 

@@ -21,9 +21,9 @@ import json
 import re
 from pathlib import Path
 
-BASE_DIR   = Path(__file__).parent
-RAW_CSV    = BASE_DIR / "nvd_raw.csv"
-CHUNKS_OUT = BASE_DIR / "nvd_chunks.json"
+DATASET_DIR = Path(__file__).parent.parent
+RAW_CSV     = DATASET_DIR / "raw"    / "nvd_raw.csv"
+CHUNKS_OUT  = DATASET_DIR / "chunks" / "nvd_chunks.json"
 
 # ---------------------------------------------------------------------------
 # Rule engine helpers

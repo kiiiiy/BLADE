@@ -42,9 +42,9 @@ SLEEP_AUTHENTICATED   = 0.7
 
 RESULTS_PER_PAGE = 100        # NVD max is 2000, 100 keeps responses manageable
 
-OUTPUT_DIR   = Path(__file__).parent
-RAW_CSV      = OUTPUT_DIR / "nvd_raw.csv"
-CHUNKS_JSON  = OUTPUT_DIR / "nvd_chunks.json"
+DATASET_DIR  = Path(__file__).parent.parent
+RAW_CSV      = DATASET_DIR / "raw"  / "nvd_raw.csv"
+CHUNKS_JSON  = DATASET_DIR / "chunks" / "nvd_chunks.json"
 
 CSV_FIELDNAMES = [
     "source_id", "source_type", "endpoint_pattern", "http_method",
