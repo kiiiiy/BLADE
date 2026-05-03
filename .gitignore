@@ -1,9 +1,6 @@
 # ChromaDB — regenerate with load_to_chromadb.py
 dataset/chroma_db/
 
-# Large generated data files — regenerate with nvd_bulk_collector.py
-dataset/nvd_raw.csv
-dataset/nvd_chunks.json
 
 # Python
 __pycache__/
